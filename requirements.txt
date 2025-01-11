@@ -1,5 +1,6 @@
 apipkg==1.5
 appdirs==1.4.4
+Appium-Python-Client==4.4.0 
 attrs==23.2.0
 certifi==2020.6.20
 chardet==3.0.4
