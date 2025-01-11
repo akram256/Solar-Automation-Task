@@ -20,11 +20,11 @@ def setup():
 
     # Run tests in Headless Chrome
     options = webdriver.ChromeOptions()
-    options.add_argument('--headless')
+    options.headless = False
     chrome_prefs = {}
     options.experimental_options["prefs"] = chrome_prefs
-    
-    driver = webdriver.Chrome()  
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+
 
     driver.implicitly_wait(20)
     driver.maximize_window()

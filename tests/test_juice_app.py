@@ -20,7 +20,7 @@ class TestFunctionality:
     def generate_random_password():
         return ''.join(random.choices(string.ascii_letters + string.digits, k=10))
 
-     @staticmethod
+    @staticmethod
     def generate_random_card_info():
         card_number = "4111111111111111"  # Example valid card number
         expiry_date = "12/26"
