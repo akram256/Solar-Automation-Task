@@ -59,13 +59,17 @@ Ensure you have the following installed:
    cd <repository_folder>
 
 
-### Set up a Python virtual environment:
+**Set up a Python virtual environment**:
+
+
+
 `python3 -m venv venv`
+
 `source venv/bin/activate`  # Linux/Mac
-`venv\Scripts\activate`     # Windows
+`venv\Scripts\activate `   # Windows
 
 
-###  Install dependencies:
+  Install dependencies:
 `pip install -r requirements.txt`
 
 ###  Install Appium globally (for mobile tests):
