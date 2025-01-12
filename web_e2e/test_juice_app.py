@@ -5,7 +5,7 @@ from selenium import webdriver
 from page_objects.home_page import HomePage
 from page_objects.registration_page import RegistrationPage
 from utilities.custom_logger import LogGen
-from tests.configtest import setup
+from web_e2e.configtest import setup
 import random
 import string
 
